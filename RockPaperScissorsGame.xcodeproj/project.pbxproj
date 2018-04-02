@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AC3BA0207196E1005B69E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC3B9F207196E1005B69E6 /* AppDelegate.swift */; };
+		04AC3BA5207196E1005B69E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AC3BA3207196E1005B69E6 /* Main.storyboard */; };
+		04AC3BA7207196E3005B69E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AC3BA6207196E3005B69E6 /* Assets.xcassets */; };
+		04AC3BAA207196E3005B69E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AC3BA8207196E3005B69E6 /* LaunchScreen.storyboard */; };
+		04AC3BB220719716005B69E6 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC3BB120719716005B69E6 /* Sign.swift */; };
+		04AC3BB42071972F005B69E6 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC3BB32071972F005B69E6 /* GameState.swift */; };
+		04AC3BB620719748005B69E6 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC3BB520719748005B69E6 /* Game.swift */; };
+		04AC3BBA2071B0B9005B69E6 /* EndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC3BB92071B0B9005B69E6 /* EndViewController.swift */; };
+		04AC3BBC2071B0E2005B69E6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC3BBB2071B0E2005B69E6 /* StartViewController.swift */; };
+		04AC3BBE2071B909005B69E6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC3BBD2071B909005B69E6 /* GameViewController.swift */; };
+		04AC3BC02071C232005B69E6 /* ShowResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC3BBF2071C232005B69E6 /* ShowResultViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04AC3B9C207196E1005B69E6 /* RockPaperScissorsGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissorsGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AC3B9F207196E1005B69E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04AC3BA4207196E1005B69E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AC3BA6207196E3005B69E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AC3BA9207196E3005B69E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04AC3BAB207196E3005B69E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AC3BB120719716005B69E6 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		04AC3BB32071972F005B69E6 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		04AC3BB520719748005B69E6 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		04AC3BB92071B0B9005B69E6 /* EndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewController.swift; sourceTree = "<group>"; };
+		04AC3BBB2071B0E2005B69E6 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		04AC3BBD2071B909005B69E6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		04AC3BBF2071C232005B69E6 /* ShowResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowResultViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AC3B99207196E1005B69E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AC3B93207196E1005B69E6 = {
+			isa = PBXGroup;
+			children = (
+				04AC3B9E207196E1005B69E6 /* RockPaperScissorsGame */,
+				04AC3B9D207196E1005B69E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AC3B9D207196E1005B69E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AC3B9C207196E1005B69E6 /* RockPaperScissorsGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AC3B9E207196E1005B69E6 /* RockPaperScissorsGame */ = {
+			isa = PBXGroup;
+			children = (
+				04AC3BB120719716005B69E6 /* Sign.swift */,
+				04AC3B9F207196E1005B69E6 /* AppDelegate.swift */,
+				04AC3BA3207196E1005B69E6 /* Main.storyboard */,
+				04AC3BA6207196E3005B69E6 /* Assets.xcassets */,
+				04AC3BA8207196E3005B69E6 /* LaunchScreen.storyboard */,
+				04AC3BAB207196E3005B69E6 /* Info.plist */,
+				04AC3BB32071972F005B69E6 /* GameState.swift */,
+				04AC3BB520719748005B69E6 /* Game.swift */,
+				04AC3BB92071B0B9005B69E6 /* EndViewController.swift */,
+				04AC3BBB2071B0E2005B69E6 /* StartViewController.swift */,
+				04AC3BBD2071B909005B69E6 /* GameViewController.swift */,
+				04AC3BBF2071C232005B69E6 /* ShowResultViewController.swift */,
+			);
+			path = RockPaperScissorsGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AC3B9B207196E1005B69E6 /* RockPaperScissorsGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AC3BAE207196E3005B69E6 /* Build configuration list for PBXNativeTarget "RockPaperScissorsGame" */;
+			buildPhases = (
+				04AC3B98207196E1005B69E6 /* Sources */,
+				04AC3B99207196E1005B69E6 /* Frameworks */,
+				04AC3B9A207196E1005B69E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockPaperScissorsGame;
+			productName = RockPaperScissorsGame;
+			productReference = 04AC3B9C207196E1005B69E6 /* RockPaperScissorsGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AC3B94207196E1005B69E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = HCCS;
+				TargetAttributes = {
+					04AC3B9B207196E1005B69E6 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 04AC3B97207196E1005B69E6 /* Build configuration list for PBXProject "RockPaperScissorsGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AC3B93207196E1005B69E6;
+			productRefGroup = 04AC3B9D207196E1005B69E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AC3B9B207196E1005B69E6 /* RockPaperScissorsGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AC3B9A207196E1005B69E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AC3BAA207196E3005B69E6 /* LaunchScreen.storyboard in Resources */,
+				04AC3BA7207196E3005B69E6 /* Assets.xcassets in Resources */,
+				04AC3BA5207196E1005B69E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AC3B98207196E1005B69E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AC3BC02071C232005B69E6 /* ShowResultViewController.swift in Sources */,
+				04AC3BBE2071B909005B69E6 /* GameViewController.swift in Sources */,
+				04AC3BBC2071B0E2005B69E6 /* StartViewController.swift in Sources */,
+				04AC3BB620719748005B69E6 /* Game.swift in Sources */,
+				04AC3BB42071972F005B69E6 /* GameState.swift in Sources */,
+				04AC3BBA2071B0B9005B69E6 /* EndViewController.swift in Sources */,
+				04AC3BA0207196E1005B69E6 /* AppDelegate.swift in Sources */,
+				04AC3BB220719716005B69E6 /* Sign.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04AC3BA3207196E1005B69E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AC3BA4207196E1005B69E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AC3BA8207196E3005B69E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AC3BA9207196E3005B69E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AC3BAC207196E3005B69E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AC3BAD207196E3005B69E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AC3BAF207196E3005B69E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockPaperScissorsGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xichen.RockPaperScissorsGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04AC3BB0207196E3005B69E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockPaperScissorsGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xichen.RockPaperScissorsGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AC3B97207196E1005B69E6 /* Build configuration list for PBXProject "RockPaperScissorsGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AC3BAC207196E3005B69E6 /* Debug */,
+				04AC3BAD207196E3005B69E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AC3BAE207196E3005B69E6 /* Build configuration list for PBXNativeTarget "RockPaperScissorsGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AC3BAF207196E3005B69E6 /* Debug */,
+				04AC3BB0207196E3005B69E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AC3B94207196E1005B69E6 /* Project object */;
+}
